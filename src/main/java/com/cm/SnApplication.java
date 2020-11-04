@@ -19,7 +19,7 @@ public class SnApplication implements CommandLineRunner {
 
     @Override
     public void run(String... args) throws Exception {
-        pharmacieRepository.save(new Pharmacie("Lora","Pikine", "Dakar", 1));
-        pharmacieRepository.save(new Pharmacie("Loum","Diamaguene", "Thiesr", 1));
+        //pharmacieRepository.save(new Pharmacie("Lora","Pikine", "Dakar", 1));
+        //pharmacieRepository.save(new Pharmacie("Loum","Diamaguene", "Thiesr", 1));
     }
 }

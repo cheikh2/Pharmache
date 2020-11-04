@@ -35,8 +35,8 @@ public class PharmacieController {
         return pharmacieRepository.save(pharmacie);
     }
 
-    @PutMapping("/pharmacie")
-    public Pharmacie updatetePharmacie(Pharmacie pharmacie){
+    @PutMapping("/pharmacie/{id}")
+    public Pharmacie updatetePharmacie(@PathVariable int id, Pharmacie pharmacie){
         return pharmacieRepository.save(pharmacie);
     }
 }
